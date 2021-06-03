@@ -1,0 +1,49 @@
+$def with (LED1, LED2, LED3, LED4, LED5, LED6, Buzzer1, status, returnLED, OnOffStatus)
+
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+                                                                               
+<body>
+<div class="container">
+    <div class="text-center">
+        <div class="jumbotron jumbotron-fluid" style="background-image: url(https://www.android-examples.com/wp-content/uploads/2016/03/demo_bg_image.jpg); background-size: 100%;">
+            <h1>$returnLED is $OnOffStatus</h1>
+            <h3>Led1 is $LED1</h3>
+            <h3>Led2 is $LED2</h3>
+            <h3>Led3 is $LED3</h3>
+            <h3>Led4 is $LED4</h3>
+            <h3>Led5 is $LED5</h3>
+            <h3>Led6 is $LED6</h3>
+            <h3>Buzzer is $Buzzer1</h3>
+            <p>Press The Buttons To Activate Your Pi. Afterward Press Current Status check the current status of LEDs and Buzzers</p>
+        </div>
+    </div>
+</div>
+
+<div class="text-center">
+    <div class="p-3 mb-2 bg-info text-white">
+    <a class="btn btn-dark" href="http://localhost:8080" role="button">Current Status</a>
+    <a class="btn btn-dark" href="http://localhost:8080/?turn=1" role="button">Led 1</a>
+    <a class="btn btn-dark" href="http://localhost:8080/?turn=2" role="button">Led 2</a>
+    <a class="btn btn-dark" href="http://localhost:8080/?turn=3" role="button">Led 3</a>
+    <a class="btn btn-dark" href="http://localhost:8080/?turn=4" role="button">Led 4</a>
+    <a class="btn btn-dark" href="http://localhost:8080/?turn=5" role="button">Led 5</a>
+    <a class="btn btn-dark" href="http://localhost:8080/?turn=6" role="button">Led 6</a>
+    <a class="btn btn-dark" href="http://localhost:8080/?turn=7" role="button">Buzzer</a>
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>                                                                            

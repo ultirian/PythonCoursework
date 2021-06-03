@@ -1,0 +1,16 @@
+Shoes
+2
+2.00
+0.10
+Trousers
+5
+4.00
+0.20
+t-shirt
+7
+3
+0.15
+Shoes Large
+10
+5.00
+0.20
